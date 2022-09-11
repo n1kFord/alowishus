@@ -1,0 +1,22 @@
+.SocialLogo {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  box-shadow: 0 12px 30px rgba(205, 209, 214, .28);
+  border-radius: 60px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  img {
+    margin: auto;
+    width: 30px;
+    height: 30px;
+  }
+
+  &a {
+    cursor: pointer;
+  }
+}

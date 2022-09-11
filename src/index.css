@@ -1,0 +1,23 @@
+@import url("./vendor/fonts.css");
+/* need to add stylelint */
+html,
+body {
+  background: var(--light-gray);
+  color: var(--default-black);
+  font-family: 'Jost', 'sans-serif';
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: .1s linear;
+}
+
+:root {
+  --default-black: #1B1B1D;
+  --gray: #64646A;
+  --light-gray: #EEEFF1;
+  --ordinary-white: #F3F4F5;
+  --default-white: white;
+}

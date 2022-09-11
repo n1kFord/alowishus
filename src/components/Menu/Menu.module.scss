@@ -1,0 +1,21 @@
+.Menu {
+  margin: 90px auto 0;
+  display: flex;
+  width: 100%;
+
+  &.coffee {
+    margin-top: 178px;
+
+    @media (max-width: 1140px) {
+      & {
+        margin-top: 50px;
+      }
+    }
+  }
+
+  @media (max-width: 1140px) {
+    & {
+      flex-direction: column;
+    }
+  }
+}

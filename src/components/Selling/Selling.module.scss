@@ -1,0 +1,18 @@
+.Selling {
+  margin-top: 228px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 1360px) {
+    & {
+      margin-top: 128px;
+    }
+  }
+
+  .subtitle {
+    margin: 24px auto 0;
+    width: 100%;
+    max-width: 604px;
+  }
+}

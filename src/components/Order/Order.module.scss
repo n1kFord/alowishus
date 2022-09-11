@@ -1,0 +1,98 @@
+.Order {
+  margin-top: 190px;
+  width: 100%;
+  display: flex;
+
+  @media (max-width: 768px) {
+    & {
+      margin-top: 89px;
+    }
+  }
+
+  img {
+    margin-top: -100px;
+    margin-left: -100px;
+
+    @media (max-width: 1300px) {
+      & {
+        display: none;
+      }
+    }
+  }
+
+  div {
+    width: 100%;
+    max-width: 512px;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 1300px) {
+      & {
+        margin: 0 auto;
+        max-width: 90%;
+      }
+    }
+
+    h2 {
+      text-align: left;
+
+      @media (max-width: 1300px) {
+        & {
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 768px) {
+        & {
+          font-size: 48px;
+        }
+      }
+    }
+
+    p {
+      margin-top: 30px;
+      text-align: left;
+
+      @media (max-width: 1300px) {
+        & {
+          margin: 25px auto 0;
+          max-width: 90%;
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 620px) {
+        & {
+          font-size: 16px;
+        }
+      }
+    }
+
+    button {
+      margin: 60px auto 0 0;
+      width: 191px;
+      height: 70px;
+      background: var(--default-black);
+      border: 0;
+      border-radius: 126px;
+      transition: 0.2s ease-in-out;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: var(--default-white);
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      @media (max-width: 1300px) {
+        & {
+          margin: 70px auto 0;
+          width: 50%;
+          min-width: 200px;
+        }
+      }
+    }
+  }
+}

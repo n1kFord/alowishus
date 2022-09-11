@@ -1,0 +1,262 @@
+.Landing {
+  margin-top: 123px;
+  padding-bottom: 131px;
+  display: flex;
+  width: 100%;
+  position: relative;
+
+  @media (max-width: 1108px) {
+    & {
+      margin-top: 40px;
+      padding-bottom: 46px;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 768px) {
+    & {
+      margin-top: 0;
+    }
+  }
+
+  .main {
+    width: 100%;
+    margin-top: 40px;
+    max-width: 597px;
+    z-index: 2;
+
+    @media (max-width: 1108px) {
+      & {
+        max-width: 100%;
+      }
+    }
+
+    @media (max-width: 400px) {
+      & {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    h1 {
+      font-weight: 800;
+      font-size: 124px;
+      line-height: 140px;
+
+      @media (max-width: 768px) {
+        & {
+          font-size: 92px;
+          line-height: 108px;
+        }
+      }
+
+      @media (max-width: 648px) {
+        & {
+          font-size: 72px;
+          line-height: 88px;
+        }
+      }
+
+      @media (max-width: 470px) {
+        & {
+          font-size: 50px;
+          line-height: 65px;
+        }
+
+        img {
+          display: none;
+        }
+      }
+
+      @media (max-width: 400px) {
+        & {
+          text-align: center;
+        }
+      }
+    }
+
+    .award {
+      margin-left: 29px;
+      width: 73px;
+      height: 58px;
+    }
+
+    p {
+      margin-top: 30px;
+      max-width: 530px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 35px;
+      color: var(--gray);
+
+      @media (max-width: 550px) {
+        & {
+          font-size: 20px;
+          line-height: 31px;
+        }
+      }
+
+      @media (max-width: 470px) {
+        & {
+          font-size: 17px;
+          line-height: 25px;
+        }
+      }
+
+      @media (max-width: 400px) {
+        & {
+          text-align: center;
+        }
+      }
+    }
+
+    .download {
+      display: inline-block;
+      margin-top: 60px;
+      width: 225px;
+      height: 70px;
+      background-color: var(--default-black);
+      border: 0;
+      border-radius: 126px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      text-transform: uppercase;
+      color: var(--default-white);
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      @media (max-width: 550px) {
+        & {
+          margin-top: 30px;
+          width: 155px;
+          height: 50px;
+          font-size: 15px;
+          line-height: 25px;
+        }
+      }
+
+      @media (max-width: 400px) {
+        & {
+          margin: 25px auto 0;
+        }
+      }
+    }
+
+    .shop {
+      display: inline-block;
+      margin-left: 30px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      text-transform: uppercase;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        background-color: var(--default-black);
+        bottom: -2px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        height: 1px;
+        transition: 0.2s ease-in-out;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+
+      &:hover::before {
+        width: 50%;
+      }
+
+      @media (max-width: 550px) {
+        & {
+          margin-left: 15px;
+          font-size: 15px;
+          line-height: 25px;
+        }
+      }
+
+      @media (max-width: 400px) {
+        & {
+          margin: 15px auto 0;
+        }
+      }
+    }
+  }
+
+  .stars {
+    margin-top: 391px;
+    margin-left: 44px;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 140px;
+    background-color: var(--default-white);
+    border-radius: 24px;
+    z-index: 1;
+
+    @media (max-width: 1108px) {
+      & {
+        margin: 75px auto 0 0;
+      }
+    }
+
+    @media (max-width: 400px) {
+      & {
+        margin: 40px auto 0;
+        width: 220px;
+        height: 75px;
+      }
+    }
+
+    h2 {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    .rank {
+      margin-top: 12px;
+      margin-left: 24px;
+      max-width: 232px;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 26px;
+      color: var(--gray);
+
+      @media (max-width: 768px) {
+        & {
+          font-size: 15px;
+          line-height: 20px;
+        }
+      }
+
+      @media (max-width: 400px) {
+        & {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .coffee {
+    width: 700px;
+    height: 712px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: -36px;
+
+    @media (max-width: 1183px) {
+      & {
+        display: none;
+      }
+    }
+  }
+}
