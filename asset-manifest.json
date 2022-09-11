@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/alowishus/static/css/main.2c6ebf3f.css",
+    "main.js": "/alowishus/static/js/main.88a534ca.js",
+    "static/js/787.4bb0b171.chunk.js": "/alowishus/static/js/787.4bb0b171.chunk.js",
+    "static/media/user-1.svg": "/alowishus/static/media/user-1.e1b40cd637448d3a318096b966680281.svg",
+    "static/media/user-2.svg": "/alowishus/static/media/user-2.7f2cda5ddd1e464d21d18093eb1a085b.svg",
+    "static/media/coffee-5.svg": "/alowishus/static/media/coffee-5.9f4def66bb7739bff211481b1fa48968.svg",
+    "static/media/coffee-6.svg": "/alowishus/static/media/coffee-6.ed12bc91e1a30d9aea70f1fcc7c72de8.svg",
+    "static/media/mobile-app.png": "/alowishus/static/media/mobile-app.32359fdc42094c7ba096.png",
+    "static/media/iced-coffee.svg": "/alowishus/static/media/iced-coffee.d5701ff166b9f8a93285603ab18321ee.svg",
+    "static/media/caramel-frappe.svg": "/alowishus/static/media/caramel-frappe.097c84447ea5220165330c54fd44291c.svg",
+    "static/media/double-espresso.svg": "/alowishus/static/media/double-espresso.97667e45f19a7c081fc7fc449ede3c9a.svg",
+    "static/media/coffee-3.png": "/alowishus/static/media/coffee-3.da85bfbb1fbee490d201.png",
+    "static/media/coffee-1.png": "/alowishus/static/media/coffee-1.0be146b1e06b6660f38d.png",
+    "static/media/coffee-7.png": "/alowishus/static/media/coffee-7.c464dfe8beca455ce1b1.png",
+    "static/media/coffee-2.svg": "/alowishus/static/media/coffee-2.0b9480ab724fd06e64512f54b851116a.svg",
+    "static/media/logo.png": "/alowishus/static/media/logo.542b57b6202b59add9ca.png",
+    "static/media/food-sketch-3.svg": "/alowishus/static/media/food-sketch-3.a5b283aa8d120a24dd90e216d434e917.svg",
+    "static/media/food-sketch-1.svg": "/alowishus/static/media/food-sketch-1.376b6bfeee23ba92f95013fea7b2143a.svg",
+    "static/media/food-sketch-2.svg": "/alowishus/static/media/food-sketch-2.a0cdb04d2e492075ac7872e3cd7f3b39.svg",
+    "static/media/instagram-logo.svg": "/alowishus/static/media/instagram-logo.18117767f7c1e41cc4f7cc64dfe7661c.svg",
+    "static/media/email-logo.svg": "/alowishus/static/media/email-logo.518dc1dd75cacc96d1c74e1cc1202e31.svg",
+    "static/media/twitter-logo.svg": "/alowishus/static/media/twitter-logo.b656aa3d74c623425328f21fb02a0954.svg",
+    "static/media/phone-logo.svg": "/alowishus/static/media/phone-logo.9f2e040775073c526de14dcc87b07251.svg",
+    "index.html": "/alowishus/index.html",
+    "static/media/linkedin-logo.svg": "/alowishus/static/media/linkedin-logo.f977e35570297f87b5f91c5457f3d711.svg",
+    "static/media/facebook-logo.svg": "/alowishus/static/media/facebook-logo.ff7b5971fed79eb48168e596aafb0c06.svg",
+    "static/media/arrow-right.svg": "/alowishus/static/media/arrow-right.8cc267498ba9aca795af57057aa384d5.svg",
+    "static/media/arrow-left.svg": "/alowishus/static/media/arrow-left.0a429a38c2285abd4558581c6ae66c34.svg",
+    "main.2c6ebf3f.css.map": "/alowishus/static/css/main.2c6ebf3f.css.map",
+    "main.88a534ca.js.map": "/alowishus/static/js/main.88a534ca.js.map",
+    "787.4bb0b171.chunk.js.map": "/alowishus/static/js/787.4bb0b171.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c6ebf3f.css",
+    "static/js/main.88a534ca.js"
+  ]
+}
